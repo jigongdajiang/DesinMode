@@ -9,7 +9,7 @@
 每个dXX_modeName 包含一个包 example  存放的是示例源码  Description:是原理总结
 
 Description分别从 定义 场景 角色 案例  android中的应用  利弊 六个方面对模式进行了简要总结性介绍，例如:
-/**
+
      * 定义:
      *      将产品的实例化进行隐藏
      * 场景:
@@ -23,4 +23,3 @@ Description分别从 定义 场景 角色 案例  android中的应用  利弊 �
      *      水果工厂
      * android:
      *      BitmapFactory
-*/
