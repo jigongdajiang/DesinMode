@@ -5,7 +5,7 @@ package gjg.com.desinmode.d02_singleton.example;
  * @date : 2017/7/14
  * FileName:
  * @description:
- * 饿汉 也是在类家在过程中的初始化时实例创建
+ * 饿汉 也是在类加载过程中的初始化时实例创建
  */
 
 

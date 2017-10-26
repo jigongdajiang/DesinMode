@@ -15,6 +15,7 @@ package gjg.com.desinmode.d02_singleton.example;
  *  另外一方面，我不希望在Singleton类加载时就实例化，
  *  因为我不能确保Singleton类还可能在其他的地方被主动使用从而被加载，
  *  那么这个时候实例化instance显然是不合适的。这个时候，这种方式相比普通饿汉方式就显得很合理。
+ *  效率高，线程安全，懒加载（实例创建时还是不能太耗时）
  */
 
 
