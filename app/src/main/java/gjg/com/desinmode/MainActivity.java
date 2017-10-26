@@ -18,7 +18,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void click(View view) {
+    public void clickSingle(View view) {
         startActivity(new Intent(this, InfoActvity.class));
+    }
+
+    public void clickBuilder(View view) {
+
     }
 }
