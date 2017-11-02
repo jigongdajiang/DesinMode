@@ -11,7 +11,7 @@ package gjg.com.desinmode.d02_singleton.example;
 
 
 public class Singleton_3 {
-    private static Singleton_3 mInstance = null;
+    private volatile static Singleton_3 mInstance = null;
     private Singleton_3(){
 
     }

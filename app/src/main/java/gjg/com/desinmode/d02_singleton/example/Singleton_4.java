@@ -10,7 +10,7 @@ package gjg.com.desinmode.d02_singleton.example;
 
 
 public class Singleton_4 {
-    private static Singleton_4 mInstance = null;
+    private volatile static Singleton_4 mInstance = null;
     static {
         mInstance = new Singleton_4();
     }
