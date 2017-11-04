@@ -8,6 +8,7 @@ import android.view.View;
 import gjg.com.desinmode.d01_factorymethod.iofram.FactoryActivity;
 import gjg.com.desinmode.d02_singleton.atvmanager.InfoActvity;
 import gjg.com.desinmode.d07_decorator.headerrv.HeaderRvActivity;
+import gjg.com.desinmode.d09_adapter.smaplelv.AdapterDemoActivity;
 
 /**
  * 单纯的为了示例代码的存储
@@ -34,5 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickdecorator(View view) {
         startActivity(new Intent(this, HeaderRvActivity.class));
+    }
+
+    public void clickAdapter(View view) {
+        startActivity(new Intent(this, AdapterDemoActivity.class));
     }
 }

@@ -33,6 +33,12 @@
             android:text="装饰设计模式"
             android:onClick="clickdecorator"
             android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="适配器模式案例"
+            android:onClick="clickAdapter"
+            android:layout_marginTop="10dp"/>
     </LinearLayout>
 
 

@@ -22,6 +22,7 @@
         <activity android:name=".d02_singleton.atvmanager.RegActivity"/>
         <activity android:name=".d01_factorymethod.iofram.FactoryActivity"/>
         <activity android:name=".d07_decorator.headerrv.HeaderRvActivity"/>
+        <activity android:name=".d09_adapter.smaplelv.AdapterDemoActivity"/>
     </application>
 
 </manifest>
