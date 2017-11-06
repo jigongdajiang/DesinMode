@@ -23,6 +23,9 @@
         <activity android:name=".d01_factorymethod.iofram.FactoryActivity"/>
         <activity android:name=".d07_decorator.headerrv.HeaderRvActivity"/>
         <activity android:name=".d09_adapter.smaplelv.AdapterDemoActivity"/>
+        <activity android:name=".d20_observer.dateupdate.MemberListActicity"/>
+        <activity android:name=".d20_observer.dateupdate.AddMemberActivity"/>
+        <activity android:name=".d12_iterator.navgationbottom.NavBottomActivity"/>
     </application>
 
 </manifest>

@@ -9,6 +9,8 @@ import gjg.com.desinmode.d01_factorymethod.iofram.FactoryActivity;
 import gjg.com.desinmode.d02_singleton.atvmanager.InfoActvity;
 import gjg.com.desinmode.d07_decorator.headerrv.HeaderRvActivity;
 import gjg.com.desinmode.d09_adapter.smaplelv.AdapterDemoActivity;
+import gjg.com.desinmode.d12_iterator.navgationbottom.NavBottomActivity;
+import gjg.com.desinmode.d20_observer.dateupdate.MemberListActicity;
 
 /**
  * 单纯的为了示例代码的存储
@@ -39,5 +41,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickAdapter(View view) {
         startActivity(new Intent(this, AdapterDemoActivity.class));
+    }
+
+    public void clickObserver(View view) {
+        startActivity(new Intent(this, MemberListActicity.class));
+    }
+
+    public void clickInterator(View view) {
+        startActivity(new Intent(this, NavBottomActivity.class));
     }
 }
